@@ -1,0 +1,20 @@
+[package]
+name = "html_form_actions"
+version = "0.1.0"
+authors = ["Samuel Hicks"]
+edition = "2024"
+description = "Generate HTML Form parsers and routing logic for Form Actions"
+readme = "../README.md"
+repository = "https://github.com/sammhicks/html_form_actions"
+license = "MIT"
+keywords = ["no_std", "html", "web"]
+categories = ["web-programming::http-server"]
+
+[dependencies]
+html_form_actions_macros = { version = "0.1.0", path = "../html_form_actions_macros" }
+
+[dev-dependencies]
+axum = "0.8.4"
+maud = { version = "0.27.0", features = ["axum"] }
+picoserve = { version = "0.16.0", features = ["std"] }
+serde = "1.0.219"

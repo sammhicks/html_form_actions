@@ -1,0 +1,8 @@
+[workspace]
+resolver = "3"
+members = [
+    "html_form_actions",
+    "html_form_actions_macros",
+    "examples/axum",
+    "examples/picoserve",
+]

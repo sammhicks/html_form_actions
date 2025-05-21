@@ -1,0 +1,11 @@
+[package]
+name = "picoserve_example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+html_form_actions = { path = "../../html_form_actions" }
+maud = "0.27.0"
+picoserve = { version = "0.16.0", features = ["tokio"] }
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.45.0", features = ["rt", "net", "macros", "sync"] }
