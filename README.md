@@ -6,7 +6,7 @@ The main usage is the `actions` proc-macro, which allows you to declare a module
 
 Action Handlers, which are declared as such with the `#[action]` attribute, may have parameters with the `#[form]` attribute, which generates a structure which describes the form structure, allowing code to use them in template code to ensure that the HTML form and the parsing logic matches.
 
-See the [docs](https://docs.rs/axum/html_form_actions) for more info.
+See the [docs](https://docs.rs/html_form_actions) for more info.
 
 ## Features
 

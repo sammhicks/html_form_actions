@@ -1,6 +1,6 @@
 [package]
 name = "html_form_actions"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Samuel Hicks"]
 edition = "2024"
 description = "Generate HTML Form parsers and routing logic for Form Actions"
